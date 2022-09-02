@@ -1,0 +1,38 @@
+---
+import FAQ from "$components/FAQ.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Concernant Mon Pseudo Discord">
+  <main class="flex-1 flex flex-col mt-[5%] items-center">
+    <div class="w-1/2">
+      <h1 class="text-3xl font-bold text-yellow-300">FAQ</h1>
+      <p class="text-lg mb-8">
+        Le pourquoi du comment je ne suis plus sur discord.
+      </p>
+
+      <div class="flex flex-col gap-y-8">
+        <FAQ
+          question="Pourquoi tu ne peux plus me contacter?"
+          answer="J'ai tous simplement supprimé mon compte discord 🗑️"
+        />
+        <FAQ
+          question="Pourquoi avoir supprimer mon compte discord?"
+          answer="Parce que je ne suis pas en accord avec leur protection des données ❌"
+        />
+        <FAQ
+          question="Pourquoi je ne t'ai pas prévenue"
+          answer="Comme un c*on j'ai oublier 😓 (0 vanne), genre je me suis dit que fallait que je le fasse puis j'ai supprimé mon compte, puis j'ai fait un test de QI (déso je comptais te recontacter sur github, mais t'as été + rapide)."
+        />
+        <FAQ
+          question={`Pourquoi tu ne me vois pas en tant que "deleted user" sur discord?`}
+          answer="Cela fait moins de 14j (12j au moment ou j'écrit ça) que mon compte est supprimé donc je peux encore le restaurer donc il n'a pas encore été réellement supprimer."
+        />
+        <FAQ
+          question="Ok, mais maintenant quoi? 👀"
+          answer={`Si tu souhaites continuer à me parler, j'ai switcher sur <a style="color: #3498db;" href="https://revolt.chat/" target="_blank" rel="noopener noreferrer">revolt.chat</a> où tu peux me trouver sous le pseudo de <code>@ilingu</code> (sans le "<code>@</code>")`}
+        />
+      </div>
+    </div>
+  </main>
+</Layout>

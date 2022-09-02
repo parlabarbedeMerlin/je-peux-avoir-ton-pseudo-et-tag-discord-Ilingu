@@ -1,0 +1,16 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl": ".",
+    "paths": {
+      "$components/*": ["src/components/*"],
+      "$layouts/*": ["src/layouts/*"],
+      "$lib/*": ["src/lib/*"]
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  }
+}

@@ -1,0 +1,14 @@
+---
+import NavItem from "$components/NavItem";
+
+const url = Astro.request.url;
+---
+
+<nav class="w-full h-[96px]">
+  <ul
+    class="h-full flex justify-center items-center gap-x-10 font-bold text-lg"
+  >
+    <NavItem client:idle rightPath="/" url={url}>Home</NavItem>
+    <NavItem client:idle rightPath="/faq" url={url}>FAQ</NavItem>
+  </ul>
+</nav>
