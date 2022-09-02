@@ -1,7 +1,11 @@
 {
-  "name": "@example/basics",
-  "version": "0.0.1",
+  "name": "pseudo-ilingu-discord",
+  "version": "1.0.0",
   "private": true,
+  "description": "Le pourquoi du comment 👀",
+  "author": "Ilingu",
+  "license": "MIT",
+  "repository": "https://github.com/parlabarbedeMerlin/je-peux-avoir-ton-pseudo-et-tag-discord-Ilingu",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
